@@ -24,4 +24,10 @@ public class MarshmallowMonster
 		this.MonsterAntena = MonsterAntena;
 		
 	}
+	
+	public String toString()
+	{
+		String monsterInfo = "My monster Has "+  MonsterLegs  + " eyes and its name is " +  MonsterName;
+		return monsterInfo;
+	}
 }
